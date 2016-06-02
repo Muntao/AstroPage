@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta charset="UTF-8">
+        <title>Wszechświat jest wokół nas...</title>
+        <meta name="description" content="Strona poświęcona astronomii">
+        <meta name="keywords" content="kosmos, planeta, gwiazda, słońce, Ziemia, galaktyka">
+        <meta name="author" content="Michalski, Mrożek">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" href="assets/img/galaxy.ico" sizes="96x96">
+        <link href="assets/css/main.css" rel="stylesheet" type="text/css">
+        <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+        <link href="assets/font-awesome/css/font-awesome.css" rel="stylesheet" type="text/css">
+    </head>
+    <body class="layout">
+        <header class="container"> 
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="col-md-2 logo">
+                        <a href="index.html">
+                            <img src="assets/img/galaxy-white.ico" alt="galaxy"/> 
+                        </a>
+                    </div>
+                    <div class="col-md-8 title">                
+                        Wszechświat jest wokół nas...
+                    </div>
+                    <div class="col-md-2">
+                        <div id="clockbox" class="white" style="color: white;">                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <nav class="container"> 
+            <div class="row">
+                <div class="col-md-12 menu">                    
+                    <hr/>
+                    <ul>
+                        <li><a href="index.html"><span class="glyphicon glyphicon-home white"></span> Strona główna</a></li>
+                        <li><a href="uklad1.html"><span class="glyphicon glyphicon-globe white"></span> Układ słoneczny</a></li>
+                        <li><a href="czarne.html"><span class="glyphicon glyphicon-record white"></span> Czarne dziury</a></li>
+                        <li><a href="gwiazdy.html"><span class="glyphicon glyphicon-star white"></span> Największe gwiazdy</a></li>
+                        <li><a href="droga.html"><span class="glyphicon glyphicon-asterisk white"></span> Droga mleczna</a></li>
+                        <li><a href="galeria.html"><span class="glyphicon glyphicon-picture white"></span> Galeria</a></li>
+                        <li><a href="kontakt.html"><span class="glyphicon glyphicon-envelope white"></span> Kontakt</a></li>
+                    </ul>                    
+                    <hr/>
+                </div>
+            </div>
+        </nav>       
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-1"></div>
+                    <div class="col-md-10 content">
+                        <div class="center">
+                            <h1>Kontakt</h1>
+                        </div>
+                        Jeśli chcesz się z nami skontaktować, wyślij do nas emaila! Chętnie odpowiemy na każdą wiadomość!
+                        <br/>
+                        <br/>
+                        <form class="kontaktForm" method="POST" action=""> 
+                            <div class="form-group"> 
+                                <label>Imię i nazwisko:</label> 
+                                <input id="name" class="form-control pole" name="username" type="text" value="">
+                                <div class="warning nameWarning">To pole jest niepoprawne!</div>
+                            </div>
+                            <div class="form-group">
+                                <label>E-mail:</label> 
+                                <input id="email" class="form-control pole" name="email" type="email" value="">
+                                <div class="warning emailWarning">Adres email jest nieprawidłowy!</div>
+                            </div>
+                            <div class="form-group">
+                                <label>Wiadomość:</label>
+                                <textarea id="tresc" class="form-control pole" name="content" rows="10"></textarea>
+                                <div class="warning trescWarning">To pole jest niepoprawne!</div>                                
+                            </div>
+                            <div class="form-group">
+                                <button id="sendForm" class="btn btn-md btn-default pull-right" type="submit">Wyślij</button>
+                            </div>
+                        </form>
+
+                    </div>
+                    <div class="col-md-1"></div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 footer">
+                        <div class="col-md-4">
+                            <h3>O nas:</h3>
+                            <p>Jesteśmy grupą studentów, która w wolnych chwilach lubi zajrzeć w głąb wszechświata. Każda nowa ciekawostka jest dla nas bardzo istotna. W końcu nie wiadomo, może nam się to kiedyś przyda :)</p>
+                        </div>    
+                        <div class="col-md-4">                            
+                            <h3>Przydatne linki:</h3>
+                            <ul class="footer-list">
+                                <li><a href="index.html">Strona główna</a></li>
+                                <li><a href="kontakt.html">Kontakt</a></li>                                
+                                <li><a href="czarne.html">Czarne dziury</a></li>                                
+                                <li><a href="uklad1.html">Układ słoneczny</a></li>                                
+                                <li><a href="gwiazdy.html">Największe gwiazdy</a></li>                                
+                            </ul>
+                        </div>    
+                        <div class="col-md-4">
+                            <h3>Kontakt:</h3>
+                            <div>
+                                <p><span class="glyphicon glyphicon-envelope"></span> E-mail: Example@example.pl</p>
+                                <p><span class="glyphicon glyphicon-phone"></span> Telefon: 666 666 888</p>
+                                <div class="social-connect">
+                                    <ul class="list-inline social-icons">
+                                        <li><a href="" class="facebook-bg"><i class="fa fa-facebook"></i></a></li>
+                                        <li><a href="" class="twitter-bg"><i class="fa fa-twitter"></i></a></li>
+                                        <li><a href="" class="googleplus-bg"><i class="fa fa-google-plus"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>    
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 downbar">
+                        <hr/>
+                        Copyrights © 2016 - Michalski
+                    </div>
+                </div>
+            </div> 
+        </footer> 
+        <script src="assets/js/jquery-2.1.1.min.js"></script>
+        <script src="assets/bootstrap/js/bootstrap.min.js"></script>        
+        <script src="assets/js/main.js"></script>        
+    </body>    
+</html>
